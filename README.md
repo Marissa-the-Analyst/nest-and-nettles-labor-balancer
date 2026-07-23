@@ -1,7 +1,7 @@
 # nest-and-nettles-labor-balancer
 Operational workload management tool for Nest & Nettles supervisors. Tracks daily task assignments, activity frequency, and effort intensity across weekend shifts to help supervisors distribute heavy physical tasks fairly, prevent fatigue, and balance team effort.
 
-# Business Question
+# Business Introduction
 Dr. Fujishiro wrote a paper on analyzing the role fairness plays as a moderator and mediator on traditional work-stressors. The results found "fairness measures moderated the relationship between workload and perceived job stress, with high workload *less likely* to lead to high stress when employees perceived that management was fair."
 
 My own perceived workplace experience has been:
