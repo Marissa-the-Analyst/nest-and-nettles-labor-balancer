@@ -9,14 +9,14 @@ My own perceived workplace experience has been:
 - Associates who do perceived higher effort tasks consistently are more likely to burn out.
 - Associates who view other co-worker's jobs as less difficult than their own are less likely to be engaged in their work.
 
-To mitigate this, supervisors and managers have the unique job of managing employee skill level while balancing the department's perceived fairness across avaliable roles. As the numbers of employees and roles scale with each new member added to a team, so does the manager's ability to effectively track who has done what recently. 
+To mitigate this, supervisors and managers have the unique job of managing employee skill level while balancing the department's perceived fairness across avaliable roles. As the number of employees scales, a manager's ability to track who has done what becomes increasingly difficult. 
 
 # Finished Product
 <img width="1280" height="757" alt="gif" src="https://github.com/user-attachments/assets/4292be9a-12a4-457d-9201-8f74bac88841" />
 Feel free to download and play around with it yourself!
 
 # Goals
-To create a tracker that is easy to navigate and use to analyze team labor distribution. There was a heavy emphasis on ease of use here so the transition to using it would be feasible.
+To create a tracker that is easy to navigate and use to analyze team labor distribution. I put a heavy emphasis ease of use, ensuring smooth adoption.
 
 # Program
 - Excel
@@ -47,14 +47,14 @@ I used the data entry space as an opportunity for supervisors to see a quick bir
 This is perfectly encapsulated here. If I was using this tool on 7/19 and Kade Emma came up to me complaining about being tired or exhibiting work fatigue/demotivation. I can easily see why. Team receiving for 4 days consecutively would drain anyone's motivation. Conversely, I'd be able to notice someone like Colton Melinda who has done lighter work like training/taste tester for the past 4 shifts. If Kade and Colton were trained on the same tasks, this would be a perfect opportunity to swap their roles to give Kade a much needed break. This example truly demonstrates the strength of this tool. By embedding this analysis directly into the data entry stage, we can easily catch recent patterns and trends that sheer counts may not tell us on the summary screen. 
 
 # Designing a tool people actually want to use
-Given my creation of this tool was entirely voluntary and the supervisor's interest in using it primarily driven by their own ambition to be a better leader, I knew I had to make the tool approachable for all computer levels. Asking a supervisor to navigate to the data tab *after* theyve put their mouse on the pivot table, then hit refresh not once, but twice in order to get updated data wasn't realistic and was the fastest way to have a supervisor lose interest. <br>
+Given my creation of this tool was entirely voluntary and the supervisor's interest in using it primarily driven by their own ambition to be a better leader, I knew I had to make the tool approachable for all computer levels. Asking a supervisor to navigate to the data tab *after* they've put their mouse on the pivot table, then hit refresh not once, _but twice_ in order to get updated data wasn't realistic and was the fastest way to have a supervisor lose interest. <br>
 
-This is where I finally dived into the world of macros. I had minimal exposure to macros from my access courses but I understood how they function. Using Gemini, I was able to quickly create 3 different macros with a focus on easing user experience. 1 refreshed the summary table by taking the data entered through the power query and updating the table, 1 simply navigated the user to the summary sheet, and finally—my favorite—a macro that checks the current date and takes the user to that point on the data entry screen. This prevents and searching or scrolling, and just sets the end user up for success. End users find buttons inuitive! 
+This is where I finally dived headfirst into the world of macros. I had minimal exposure to macros from my access courses but I understood how they function. Using Gemini, I was able to quickly create 3 different macros with a focus on easing user experience. 1 refreshed the summary table by taking the data entered through the power query and updating the table, 1 simply navigated the user to the summary sheet, and finally—my favorite—a macro that checks the current date and takes the user to that point on the data entry screen. This prevents searching or scrolling, and just sets the end user up for success. End users find buttons inuitive! 
 
 # Reflection
-As someone who's worked as a team member on a warehouse floor, I definitely see the value in maintaining team dynamics. An example that comes to mind is being given a heavy box to carry, over and over again. 2 hours of heavy boxes. And while you're carrying those heavy boxes from point A to point B, you see Gary over there having a great time with light boxes. You notice in fact, he's been on light boxes all day. Isn't even breaking a sweat. Maybe the first time this doesn't bother you. Everyone has to do the hard work eventually, but lets say its been 3 entire work shifts of you doing heavy boxes. Your muscles ache, but Gary looks as right as rain. <br>
+As someone who's worked as a team member on a warehouse floor, I definitely see the value in maintaining team dynamics. An example that comes to mind is being given a heavy box to carry, over and over again. 2 hours of heavy boxes. And while you're carrying those heavy boxes from point A to point B, you see Gary over there having a great time with light boxes. You notice in fact, he's been on light boxes all day. Isn't even breaking a sweat. Maybe the first time this doesn't bother you. Everyone has to do the hard work eventually, but let's say it's been 3 entire work shifts of you doing heavy boxes. Your muscles ache, but Gary looks as right as rain. <br>
 
-In that moment, you're desire to continue working as hard plummets. You feel as though you're not valued. You're physically incapable of continuing to perform the task at your current level and you might even feel righteous anger at management who might not even be aware of the workload discrepancy. <br>
+In that moment, your desire to continue working as hard plummets. You feel as though you're not valued. You're physically incapable of continuing to perform the task at your current level and you might even feel righteous anger at management who might not even be aware of the workload discrepancy. <br>
 
 I'm proud to have created a tool that can fix that, and display it in a way that's easy to use and interpret. I hope it finds good use in real life, and if you have any other ideas of how to optimize a workload and manage a team and how data can be involved in that process, let me know! 
 
